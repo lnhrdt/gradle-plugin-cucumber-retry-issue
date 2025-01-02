@@ -1,4 +1,6 @@
-Issue reproduction for https://github.com/gradle/cucumber-companion/issues/149
+Issue reproduction for:
+- https://github.com/gradle/test-retry-gradle-plugin/issues/278
+- https://github.com/gradle/cucumber-companion/issues/149
 
 ## Reproduction
 
