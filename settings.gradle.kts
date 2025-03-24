@@ -12,5 +12,6 @@ include(":cucumber-companion-platform")
 include(":cucumber-junit4-classic")
 include(":cucumber-junit4-platform")
 include(":cucumber-junit5-platform")
+include(":shared")
 
 rootProject.name = "gradle-plugin-cucumber-retry-issue"
