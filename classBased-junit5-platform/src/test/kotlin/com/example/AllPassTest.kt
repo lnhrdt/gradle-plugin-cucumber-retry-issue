@@ -1,0 +1,13 @@
+package com.example
+
+import org.junit.jupiter.api.Test
+
+class AllPassTest {
+    @Test
+    fun test1Pass() {
+    }
+
+    @Test
+    fun test2Pass() {
+    }
+}

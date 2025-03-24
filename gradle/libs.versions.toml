@@ -1,16 +1,21 @@
 [versions]
 kotlin = "2.1.20" # https://github.com/JetBrains/kotlin/releases/latest
 testRetryGradlePlugin = "1.6.2" # https://github.com/gradle/test-retry-gradle-plugin/releases
+junit-junit4 = "4.13.2" # https://github.com/junit-team/junit4/releases
+junit-junit5 = "5.12.1" # https://github.com/junit-team/junit5/releases
 junit-platform = "1.12.1" # https://github.com/junit-team/junit5/releases
 cucumber = "7.21.1" # https://github.com/cucumber/cucumber-jvm/releases
 gradleCucumberCompanionGradlePlugin = "1.3.0" # https://github.com/gradle/cucumber-companion/releases
 
 [libraries]
-kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+junit-junit4 = { module = "junit:junit", version.ref = "junit-junit4" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-junit5" }
+junit-jupiterApi = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit-junit5" }
 junit-platformSuiteApi = { module = "org.junit.platform:junit-platform-suite-api", version.ref = "junit-platform" }
 junit-platformSuiteEngine = { module = "org.junit.platform:junit-platform-suite-engine", version.ref = "junit-platform" }
+junit-vintageEngine = { module = "org.junit.vintage:junit-vintage-engine", version.ref = "junit-junit5" }
 cucumber-java = { module = "io.cucumber:cucumber-java", version.ref = "cucumber" }
-cucumber-picoContainer = { module = "io.cucumber:cucumber-picocontainer", version.ref = "cucumber" }
+cucumber-junit4 = { module = "io.cucumber:cucumber-junit", version.ref = "cucumber" }
 cucumber-junitPlatformEngine = { module = "io.cucumber:cucumber-junit-platform-engine", version.ref = "cucumber" }
 
 [plugins]
