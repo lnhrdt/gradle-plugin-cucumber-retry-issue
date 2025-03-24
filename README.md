@@ -1,5 +1,8 @@
 Issue reproduction for:
+- https://github.com/gradle/test-retry-gradle-plugin/issues/276
+- https://github.com/gradle/test-retry-gradle-plugin/issues/277
 - https://github.com/gradle/test-retry-gradle-plugin/issues/278
+- https://github.com/gradle/test-retry-gradle-plugin/issues/279
 - https://github.com/gradle/cucumber-companion/issues/149
 
 ## Reproduction
